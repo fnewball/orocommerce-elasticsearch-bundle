@@ -17,7 +17,7 @@
         "oro/platform-serialised-fields": "4.1.*",
         "oro/commerce": "4.1.*",
         "ruflin/elastica": "7.0.*",
-        "divante-ltd/orocommerce-elasticsearch-bundle": "1.0,*"
+        "divante-ltd/orocommerce-elasticsearch-bundle": "dev-add-orocommerce4.1-support"
     },
     "require-dev": {
         "phpunit/phpunit": "7.5.*"
