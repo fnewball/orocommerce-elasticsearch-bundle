@@ -7,22 +7,17 @@
         "name": "Piotr Belina",
         "email": "belina.piotr@gmail.com"
     }],
-    "repositories": {
-        "composer": {
-            "type": "composer",
-            "url": "https://packagist.orocrm.com"
-        },
-        "asset-packagist": {
-            "type": "composer",
-            "url": "https://asset-packagist.orocrm.com"
-        }
-    },
+    "repositories": [{
+        "type": "vcs",
+        "url": "git@github.com:fnewball/orocommerce-elasticsearch-bundle.git"
+    }],
     "minimum-stability": "dev",
     "prefer-stable": true,
     "require": {
         "oro/platform-serialised-fields": "4.1.*",
         "oro/commerce": "4.1.*",
-        "ruflin/elastica": "7.0.*"
+        "ruflin/elastica": "7.0.*",
+        "divante-ltd/orocommerce-elasticsearch-bundle": "1.0,*"
     },
     "require-dev": {
         "phpunit/phpunit": "7.5.*"
